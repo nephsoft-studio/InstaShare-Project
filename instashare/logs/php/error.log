@@ -1,0 +1,12 @@
+[06-Oct-2023 19:57:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function instashare_google_font() in C:\Users\PC\Local Sites\instashare\app\public\wp-content\themes\instashare\functions.php:73
+Stack trace:
+#0 C:\Users\PC\Local Sites\instashare\app\public\wp-includes\class-wp-hook.php(310): instashare_setup('')
+#1 C:\Users\PC\Local Sites\instashare\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\PC\Local Sites\instashare\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\PC\Local Sites\instashare\app\public\wp-settings.php(610): do_action('after_setup_the...')
+#4 C:\Users\PC\Local Sites\instashare\app\public\wp-config.php(103): require_once('C:\\Users\\PC\\Loc...')
+#5 C:\Users\PC\Local Sites\instashare\app\public\wp-load.php(50): require_once('C:\\Users\\PC\\Loc...')
+#6 C:\Users\PC\Local Sites\instashare\app\public\wp-blog-header.php(13): require_once('C:\\Users\\PC\\Loc...')
+#7 C:\Users\PC\Local Sites\instashare\app\public\index.php(17): require('C:\\Users\\PC\\Loc...')
+#8 {main}
+  thrown in C:\Users\PC\Local Sites\instashare\app\public\wp-content\themes\instashare\functions.php on line 73
