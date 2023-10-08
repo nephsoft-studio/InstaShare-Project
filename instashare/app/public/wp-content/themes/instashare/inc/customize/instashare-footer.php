@@ -189,7 +189,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 	$wp_customize->add_setting(
     	'footer_widget_middle_content',
     	array(
-			'default' => '<i class="fa fa-whatsapp"></i>',
+			'default' => '<i class="fa fa-expeditedssl"></i>',
 			'capability'     	=> 'edit_theme_options',
 			'sanitize_callback' => 'instashare_sanitize_html',
 			'transport'         => $selective_refresh,

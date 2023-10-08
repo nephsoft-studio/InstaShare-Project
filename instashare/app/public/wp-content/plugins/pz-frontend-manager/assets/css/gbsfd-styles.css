@@ -1,0 +1,31 @@
+/* WISHLISTS STYLES*/
+.icon-default {
+    opacity: 1;
+}
+.icon-hover {
+    opacity: 0;
+}
+.icon-hover:hover {
+    opacity: 1;
+    color: #de283b;
+}
+.pzfm-wishlist-btn i {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: block;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+}
+.pzfm-wishlist-table img {
+    width: 150px;
+}
+#pzfm-body-wrap .loader-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 69%);
+    left: 0;
+    top: 0;
+    z-index: 999;
+}

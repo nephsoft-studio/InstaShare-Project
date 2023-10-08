@@ -236,7 +236,7 @@ function instashare_get_service_default() {
 					'subtitle3'           => esc_html__( 'Encrypted File Transfer', 'neph-soft' ),
 					'text'           => esc_html__( 'SFTP, FTPS, HTTPS, and AS2 ...', 'neph-soft' ),
 					'text2'           => esc_html__( 'View More', 'neph-soft' ),
-					'link'       => '#',
+					'link'       => '/sample-page/',
 					'id'              => 'customizer_repeater_service_001',
 				),
 				array(
@@ -248,7 +248,7 @@ function instashare_get_service_default() {
 					'subtitle3'           => esc_html__( 'Download and Store', 'neph-soft' ),
 					'text'           => esc_html__( 'Synchronize Data', 'neph-soft' ),
 					'text2'           => esc_html__( 'View More', 'neph-soft' ),
-					'link'       => '#',
+					'link'       => '/sample-page/',
 					'id'              => 'customizer_repeater_service_002',				
 				),
 				array(
@@ -260,7 +260,7 @@ function instashare_get_service_default() {
 					'subtitle3'           => esc_html__( 'Centralized Security Policies', 'neph-soft' ),
 					'text'           => esc_html__( 'Service-Level Agreements', 'neph-soft' ),
 					'text2'           => esc_html__( 'View More', 'neph-soft' ),
-					'link'       => '#',
+					'link'       => '/sample-page/',
 					'id'              => 'customizer_repeater_service_003',
 				)
 			)

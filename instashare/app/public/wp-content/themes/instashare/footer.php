@@ -15,21 +15,48 @@ $instashare_footer_effect_enable	= get_theme_mod('footer_effect_enable','1');
         <div class="footer-main">
             <div class="av-container">
 			   <div class="av-columns-area">
-					<?php if ( is_active_sidebar( 'instashare-footer-1' ) ) : ?>
 						<div class="av-column-6 col-md-6 mb-xl-0 mb-4 pr-md-5">
-						   <?php dynamic_sidebar( 'instashare-footer-1'); ?>
+						   <aside class="widget widget_text">
+						   	<h4 class="widget-title">About Insta·Share</h4>			
+						   	<div class="textwidget">
+						   		<div class="textwidget">
+						   			<p>A simple web-based application that simply uploads</p>
+						   			<p>your files to the network and allows you to download</p>
+						   		    <p>the uploaded files.</p>
+						   		</div>
+						   		<div class="footer-badge">
+						   			<img src="/wp-content/themes/instashare/assets/images/footer/about-01.png" alt="">
+						   			<img src="/wp-content/themes/instashare/assets/images/footer/about-02.png" alt="">
+						   			<img src="/wp-content/themes/instashare/assets/images/footer/about-03.png" alt="">
+						   		</div>
+						   	</div>
+						   </aside>
 						</div>
-					<?php endif; ?>
-					<?php if ( is_active_sidebar( 'instashare-footer-2' ) ) : ?>
 						<div class="av-column-3 col-md-6 mb-xl-0 mb-4 pl-md-5">
-						   <?php dynamic_sidebar( 'instashare-footer-2'); ?>
 						</div>
-					<?php endif; ?>
-					<?php if ( is_active_sidebar( 'instashare-footer-3' ) ) : ?>
 						<div class="av-column-3 col-md-6 mb-xl-0 mb-4">
-							<?php dynamic_sidebar( 'instashare-footer-3'); ?>
+							<aside class="widget widget_text">
+						   	<div class="textwidget">
+						   		<div class="footer-badge">
+						   			<img src="/wp-content/themes/instashare/assets/images/footer/footer_ico.png" alt="" width="200" height="150">
+						   		</div>
+						   	</div>
+						   </aside>
+							<aside class="widget widget_text">
+								<a href="/file-manager/">
+									<h4 class="widget-title"><i class="fa fa-ioxhost"></i>
+										File Manager
+								    </h4>
+								</a>			
+						    </aside>
+						    <aside class="widget widget_text">
+								<a href="/dashboard/">
+									<h4 class="widget-title"><i class="fa fa-users" aria-hidden="true"></i>
+										File Manager
+								    </h4>
+								</a>			
+						    </aside>
 						</div>
-					<?php endif; ?>
 				</div>	       
             </div>
 			<?php if(!empty($instashare_footer_middle_content)): ?>
@@ -45,7 +72,7 @@ $instashare_footer_effect_enable	= get_theme_mod('footer_effect_enable','1');
 			else:
 				$instashare_footer_social_icons 	= get_theme_mod('footer_social_icons');
 			endif;	
-			$instashare_copyright 	= get_theme_mod('footer_third_custom','Copyright &copy; [current_year] [site_title] | Powered by [theme_author]');
+			$instashare_copyright 	= get_theme_mod('footer_third_custom','Copyright &copy; [current_year] [site_title] | Powered by <a href="https://www.instagram.com/nephsoftstudios/">Neph·Soft·Studio´s</a>');
 			if(!empty($instashare_footer_first_img) || !empty($instashare_footer_social_icons)  || !empty($instashare_copyright)) {
 		?>
 			<div class="footer-copyright">
@@ -84,7 +111,7 @@ $instashare_footer_effect_enable	= get_theme_mod('footer_effect_enable','1');
 										$instashare_copyright_allowed_tags = array(
 											'[current_year]' => date_i18n('Y'),
 											'[site_title]'   => get_bloginfo('name'),
-											'[theme_author]' => sprintf(__('<a href="https://www.nayrathemes.com/instashare-free/" target="_blank">Instashare</a>', 'instashare')),
+											'[theme_author]' => sprintf(__('<a href="https://www.instagram.com/nephsoftstudios/" target="_blank">Instashare</a>', 'instashare')),
 										);
 									?>                        
 									<div class="copyright-text">
